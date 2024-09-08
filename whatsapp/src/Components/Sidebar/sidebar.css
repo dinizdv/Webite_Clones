@@ -1,0 +1,44 @@
+.sidebar {
+    width: var(--sidebar-w);
+    background-color: var(--primary-color);
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-components-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--m-16);
+    gap: 24px;
+}
+
+.container-profile-sidebar {
+    margin: auto 0 var(--m-16) 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sidebar button {
+    background-color: transparent;
+    border: none;
+    color: var(--secondary-color);
+    font-size: var(--fs-icon-sidebar);
+}
+
+.radius-profile {
+    width: var(--profile-sidebar-w);
+    height: var(--profile-sidebar-w);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.radius-profile img {
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+}

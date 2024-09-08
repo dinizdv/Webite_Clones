@@ -1,15 +1,38 @@
 import './chatsPage.css'
+import Sidebar from '../../Components/Sidebar'
+import Chats from '../../Components/Chats'
+import Status from '../../Components/Status'
+import Channels from '../../Components/Channels'
+import Communities from '../../Components/Communities'
 import ImgDownload from '../../assets/img-download.png'
 
 export default function ChatsPage(){
+    
     return(
         <>
-        <div className="sidebar">
-            <a>oi</a>
-        </div>
         
+        <Sidebar />
+
         <div className="component">
-            <label>testssssssssssssssssss</label>
+            <div className="content-component show" id='chats'>
+                <Chats />
+            </div>
+        
+            <div className="content-component" id='status'>
+                <Status />
+            </div>
+       
+       
+            <div className="content-component" id='channels'>
+                <Channels />
+            </div>
+
+
+            <div className="content-component" id='communities'>
+                <Communities />
+            </div>
+
+       
         </div>
 
         <div className="component-display">
@@ -27,4 +50,4 @@ export default function ChatsPage(){
         </div>
         </>
     )
-}
+    }

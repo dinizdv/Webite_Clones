@@ -13,8 +13,9 @@
   --btn-download-hover: #06CF9C;
 
   /* widths and heights */
-  --sidebar-w: 4%;
-  --component-w: 30%;
+  --sidebar-w: 60px;
+  --profile-sidebar-w: 40px;
+  --component-w: 430px;
   --img-download-w: 320px;
 
   /* paddings and margins */
@@ -28,6 +29,7 @@
 
   /* font-size */
   --fs-download-title: 2rem;
+  --fs-icon-sidebar: 1.1rem;
   
   /* radius */
   --radius-btn: 24px;
