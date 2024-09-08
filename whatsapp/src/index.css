@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  /* colors */
+  --primary-color: #202C33;
+  --secondary-color: #AEBAC1;
+  --component-color: #111B21;
+  --green-light: #00A884;
+  --encrypted-color: #667781;
+  --component-title-color: #D1D6CE;
+
+  --btn-download-hover: #06CF9C;
+
+  /* widths and heights */
+  --sidebar-w: 4%;
+  --component-w: 30%;
+  --img-download-w: 320px;
+
+  /* paddings and margins */
+  --p-8: 8px;
+  --p-16: 16px;
+  --p-32: 32px;
+  --m-8: 8px;
+  --m-16: 16px;
+  --m-32: 32px;
+  --m-encrypted: 150px;
+
+  /* font-size */
+  --fs-download-title: 2rem;
+  
+  /* radius */
+  --radius-btn: 24px;
+
+  /* transition */
+  --t-3: .3s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, Roboto, Helvetica, sans-serif;
+}
+
+a {
+  all: unset;
+}
+
+a, button {
+  cursor: pointer;
+  transition: all var(--t-3);
+}
