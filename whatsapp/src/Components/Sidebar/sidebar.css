@@ -36,6 +36,7 @@
     height: var(--profile-sidebar-w);
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
 }
 
 .radius-profile img {
