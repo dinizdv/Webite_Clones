@@ -4,9 +4,9 @@
 }
 
 .community {
-    border: 2px solid salmon;
     padding: var(--p-16);
     background-color: transparent;
+    box-shadow: inset 0 0 1px var(--secondary-color);
 }
 
 .community:hover {
@@ -35,4 +35,36 @@
 
 #community-title {
     font-weight: 700;
+}
+
+
+
+#btn-announcement {
+    background-color: var(--announcements-bg);
+    color: var(--announcements-color);
+}
+
+#btn-reactjs {
+    background-color: var(--react-bg);
+    color: var(--react-color);
+}
+
+#btn-java {
+    background-color: var(--java-bg);
+    color: var(--java-color);
+}
+
+.container-btn-view-channel {
+    padding: var(--m-16) 0 var(--m-16) 72px;
+}
+
+.container-btn-view-channel:hover {
+    background-color: var(--chat-color-hover);
+    cursor: pointer;
+}
+
+.container-btn-view-channel button {
+    color: var(--announcements-color);
+    font-size: 1.1rem;
+    background-color: transparent;
 }
