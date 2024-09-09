@@ -8,10 +8,6 @@
     box-shadow: 0 0 1px var(--secondary-color);
 }
 
-.component label {
-    color: aliceblue;
-}
-
 /* content */
 .content-component {
     display: none;
@@ -19,10 +15,6 @@
 
 .show {
     display: flex;
-    gap: 14px;
-    border-radius: 0 0 .3rem .3rem;
-    padding: 1rem;
-    color: orange;
 }
 
 

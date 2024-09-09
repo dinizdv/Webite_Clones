@@ -9,14 +9,19 @@
   --green-light: #00A884;
   --encrypted-color: #667781;
   --component-title-color: #D1D6CE;
+  --light-color: #E9EDEF;
 
   --btn-download-hover: #06CF9C;
+  --chat-color-active: #2A3942;
+  --chat-color-hover: #202C33;
 
   /* widths and heights */
   --sidebar-w: 60px;
   --profile-sidebar-w: 40px;
+  --profile-chat-w: 60px;
   --component-w: 430px;
   --img-download-w: 320px;
+  --input-search-w: 280px;
 
   /* paddings and margins */
   --p-8: 8px;
@@ -30,9 +35,13 @@
   /* font-size */
   --fs-download-title: 2rem;
   --fs-icon-sidebar: 1.1rem;
+  --fs-icon-component: 1.3rem;
+  --fs-title-component: 1.4rem;
   
   /* radius */
   --radius-btn: 24px;
+  --radius-search: 8px;
+  --radius-btn-chats: 16px;
 
   /* transition */
   --t-3: .3s;
@@ -45,7 +54,7 @@ body {
   font-family: Nunito, Roboto, Helvetica, sans-serif;
 }
 
-a {
+a, input, button {
   all: unset;
 }
 
