@@ -10,6 +10,7 @@
   --encrypted-color: #667781;
   --component-title-color: #D1D6CE;
   --light-color: #E9EDEF;
+  --end-to-end-encrypted: #4ec3f1;
 
   --btn-download-hover: #06CF9C;
   --chat-color-active: #2A3942;
@@ -18,10 +19,12 @@
   /* widths and heights */
   --sidebar-w: 60px;
   --profile-sidebar-w: 40px;
-  --profile-chat-w: 60px;
+  --profile-chat-w: 52px;
+  --profile-status-w: 40px;
   --component-w: 430px;
   --img-download-w: 320px;
   --input-search-w: 280px;
+  --icon-status-w: 10px;
 
   /* paddings and margins */
   --p-8: 8px;

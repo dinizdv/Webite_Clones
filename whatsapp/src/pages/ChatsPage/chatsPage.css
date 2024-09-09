@@ -83,7 +83,7 @@
 }
 
 .container-encrypted i {
-    padding-right: var(--p-8);
+    padding-right: 4px;
 }
 
 .container-encrypted p {
