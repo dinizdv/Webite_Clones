@@ -1,0 +1,69 @@
+.container-channels-info {
+    border: 2px solid gold;
+    padding: var(--p-8) 0;
+}
+
+.container-channels-info > p {
+    text-align: center;
+}
+
+.channels-info {
+    color: var(--light-color);
+    font-size: var(--fs-info-channels);
+    font-weight: 300;
+    margin: 0 0 var(--m-8) 0;
+}
+
+.channels-second-info {
+    color: var(--secondary-color);
+    font-size: calc(var(--fs-info-channels) - .2rem);
+    margin: 0 0 var(--m-32) 0;
+}
+
+.container-name-channel {
+    display: flex;
+    align-items: center;
+}
+
+.container-name-channel i {
+    padding-left: var(--p-8);
+    color: var(--verified-color);
+}
+
+.container-channel-details {
+    width: 320px;
+}
+
+
+.container-btn-follow-channel {
+    float: right;
+    margin-top: 6px;
+}
+
+.container-btn-follow-channel button {
+    border-radius: var(--radius-btn-chats);
+    padding: var(--p-8) 12px;
+    font-size: .8rem;
+    background-color: transparent;
+    color: var(--green-light);
+    font-weight: 500;
+    box-shadow: 0 0 2px var(--secondary-color);
+}
+
+.container-discover-more {
+    display: flex;
+    justify-content: center;
+    padding: var(--p-16);
+}
+
+.container-discover-more button {
+    background-color: var(--green-light);
+    border-radius: var(--radius-btn);
+    padding: var(--p-8) 24px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.container-discover-more button:hover {
+    background-color: var(--btn-download-hover);
+}

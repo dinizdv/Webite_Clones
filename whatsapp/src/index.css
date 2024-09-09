@@ -11,13 +11,16 @@
   --component-title-color: #D1D6CE;
   --light-color: #E9EDEF;
   --end-to-end-encrypted: #4ec3f1;
+  --verified-color: #2976F8;
 
   --btn-download-hover: #06CF9C;
   --chat-color-active: #2A3942;
   --chat-color-hover: #202C33;
+  --scroll-color: #374045;
 
   /* widths and heights */
   --sidebar-w: 60px;
+  --scroll-w: 8px;
   --profile-sidebar-w: 40px;
   --profile-chat-w: 52px;
   --profile-status-w: 40px;
@@ -40,11 +43,13 @@
   --fs-icon-sidebar: 1.1rem;
   --fs-icon-component: 1.3rem;
   --fs-title-component: 1.4rem;
+  --fs-info-channels: 1.2rem;
   
   /* radius */
   --radius-btn: 24px;
   --radius-search: 8px;
   --radius-btn-chats: 16px;
+  --radius-btn-community: 10px;
 
   /* transition */
   --t-3: .3s;
@@ -56,6 +61,28 @@ body {
   box-sizing: border-box;
   font-family: Nunito, Roboto, Helvetica, sans-serif;
 }
+
+/* scrollbar */
+/* Firefox scroll */
+/* * {
+  scrollbar-width: var(--scroll-w);
+  scrollbar-color: var(--scroll-color) var(--secondary-color);
+} */
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: var(--scroll-w);
+}
+
+*::-webkit-scrollbar-track {
+  background-color: var(--component-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-color);
+}
+
+
 
 a, input, button {
   all: unset;

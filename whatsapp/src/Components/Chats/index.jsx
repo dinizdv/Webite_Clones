@@ -65,6 +65,229 @@ const Chats = () => {
                 </div>
 
 
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
+
+                <div className="people-chats">
+                <div className="radius-chat-profile">
+            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Bruno Diniz</h4>
+            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+        </div>
+                </div>
+
+
             </div>
         </div>
     )

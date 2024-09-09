@@ -26,6 +26,10 @@
     font-size: var(--fs-icon-component);
 }
 
+.container-top-icons-chat i:hover {
+    cursor: pointer;
+}
+
 .container-input-search {
     padding: var(--p-8);
 }
@@ -97,6 +101,8 @@
 .container-people-chats {
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    height: 100vh;
 }
 
 .people-chats {

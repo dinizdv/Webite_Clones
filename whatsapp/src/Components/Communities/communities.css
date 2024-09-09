@@ -1,0 +1,38 @@
+.container-communities {
+    display: flex;
+    flex-direction: column;
+}
+
+.community {
+    border: 2px solid salmon;
+    padding: var(--p-16);
+    background-color: transparent;
+}
+
+.community:hover {
+    background-color: var(--chat-color-hover);
+    cursor: pointer;
+}
+
+.community button {
+    margin-right: var(--p-16);
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    border-radius: var(--radius-btn-community);
+    color: var(--light-color);
+}
+
+#btn-new-community {
+    background-color: var(--green-light);
+}
+
+.community label {
+    color: var(--light-color);
+    font-size: 1.1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#community-title {
+    font-weight: 700;
+}

@@ -4,6 +4,7 @@ import profilePhoto from '../../assets/profilePhoto.png'
 
 const Status = () => {
     return(
+        // reusing styles of the Chat Component
         <div className="container-chats">
         <div className="container-top-chat">
                 <h3>Status</h3>
@@ -32,7 +33,7 @@ const Status = () => {
             <h4>recent</h4>
         </div>
             
-            {/* reusing styles of the Component Chat */}
+            {/* reusing styles of the Chat Component */}
             <div className="container-people-chats">
                 <div className="people-chats">
                 <div className="radius-chat-profile">
