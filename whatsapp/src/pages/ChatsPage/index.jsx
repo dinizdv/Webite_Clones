@@ -4,6 +4,7 @@ import Chats from '../../Components/Chats'
 import Status from '../../Components/Status'
 import Channels from '../../Components/Channels'
 import Communities from '../../Components/Communities'
+import Settings from '../../Components/Settings'
 import Profile from '../../Components/Profile'
 import ImgDownload from '../../assets/img-download.png'
 
@@ -35,6 +36,10 @@ export default function ChatsPage(){
 
             <div className="content-component" id='profile'>
                 <Profile />
+            </div>
+
+            <div className="content-component" id='settings'>
+                <Settings />
             </div>
        
         </div>

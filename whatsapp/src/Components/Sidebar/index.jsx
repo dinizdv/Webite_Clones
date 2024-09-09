@@ -28,7 +28,7 @@ const Sidebar = () => {
         </div>
 
         <div className="container-profile-sidebar">
-        <button onClick={handleComponentClick}><i class="fa-solid fa-gear"></i></button>
+        <button onClick={handleComponentClick} content-id='settings'><i class="fa-solid fa-gear"></i></button>
         <div className="radius-profile" onClick={handleComponentClick} content-id='profile'>
             <img src={profilePhoto} alt="Profile photo"/>
         </div>
