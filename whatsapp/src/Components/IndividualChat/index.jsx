@@ -24,6 +24,22 @@ const IndividualChat = () => {
 
             {/* bg img */}
             <div className="bg-individual-chat">
+
+            <div className="container-square">
+            <div className="container-all-messages">
+            <div className="message">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias pariatur officiis ex eius ea.</p>
+            </div>
+            </div>
+
+            <div className="container-all-messages">
+            <div className="message">
+                <p className='right'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias pariatur officiis ex eius ea.</p>
+            </div>
+            </div>
+
+            </div>
+
                 <img src={bgWpp} alt="Background Chat" />
 
                 <div className="container-send-message">
@@ -33,9 +49,8 @@ const IndividualChat = () => {
                 <i class="fa-solid fa-plus"></i>
                 </div>
 
-                <form action="" className='input-search'>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" name="search" id="" placeholder='Search' />
+                <form action="" className='input-search' id='search-message'>
+                    <input type="text" name="search" id="search-message" placeholder='Type a message' />
                 
                 </form>
                 <i class="fa-solid fa-microphone"></i>
