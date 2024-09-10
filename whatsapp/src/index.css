@@ -18,6 +18,7 @@
   --react-color: #61DAFB;
   --java-color: #ffeb77;
   --java-bg: #af9b00;
+  --disconnect-color: #F1453A;
 
   --btn-download-hover: #06CF9C;
   --chat-color-active: #2A3942;
@@ -30,6 +31,7 @@
   --profile-sidebar-w: 40px;
   --profile-profile-w: 180px;
   --profile-chat-w: 52px;
+  --profile-settings-w: 80px;
   --profile-status-w: 40px;
   --component-w: 430px;
   --img-download-w: 320px;

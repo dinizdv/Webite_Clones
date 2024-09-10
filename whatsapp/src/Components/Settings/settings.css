@@ -1,0 +1,57 @@
+.settings-profile {
+    box-shadow: none!important; /* reusing style but removing box-shadow chat style */
+}
+
+.radius-profile-settings {
+    border-radius: 50%;
+    position: relative;
+    width: var(--profile-settings-w);
+    height: var(--profile-settings-w);
+}
+
+.profile-photo-settings {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.container-name-settings {
+    margin: auto 0 auto var(--m-16);
+}
+
+.option-settings {
+    padding: var(--p-16) 24px;
+}
+
+.option-settings:not(:first-child){
+    box-shadow: inset 0 0 1px var(--secondary-color); /* the first wpp option don´t have line */
+}
+
+.option-settings:hover {
+    background-color: var(--chat-color-hover);
+    cursor: pointer;
+}
+
+.option-settings i {
+    color: var(--light-color);
+    font-size: 1.1rem;
+    padding-right: 28px;
+    cursor: pointer;
+}
+
+.option-settings label {
+    color: var(--light-color);
+    font-size: 1.1rem;
+    font-weight: 300; 
+    cursor: pointer;  
+}
+
+#icon-disconnect {
+    color: var(--disconnect-color);
+}
+
+#text-disconnect {
+    color: var(--disconnect-color);
+}
