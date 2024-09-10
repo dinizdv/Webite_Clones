@@ -2,6 +2,25 @@ import './chats.css'
 import profilePhoto from '../../assets/profilePhoto.png'
 
 const Chats = () => {
+
+    const showIndividualChat = (event) => {
+        const clickedComponent = event.currentTarget;
+        const contentComponents = document.querySelectorAll('.content-right-component');
+        
+        contentComponents.forEach((component) => {
+          component.classList.remove('show-right');
+        });
+    
+        const contentId = clickedComponent.getAttribute('content-id');
+        const contentElement = document.getElementById(contentId);
+        if (contentElement) {
+          contentElement.classList.add('show-right');
+        }
+};
+
+
+
+
     return (
         <div className="container-chats">
             <div className="container-top-chat">
@@ -33,7 +52,7 @@ const Chats = () => {
             </div>
 
             <div className="container-people-chats">
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
             <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
         </div>
@@ -43,7 +62,7 @@ const Chats = () => {
         </div>
                 </div>
 
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
             <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
         </div>

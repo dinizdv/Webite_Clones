@@ -1,0 +1,70 @@
+.container-download-component {
+    display: flex;
+    margin-left: calc(var(--sidebar-w) + var(--component-w));
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-download-component img {
+    width: var(--img-download-w);
+}
+
+.component-styled-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.container-download h3  {
+    color: var(--component-title-color);
+    font-weight: 300;
+    font-size: var(--fs-download-title);
+    margin: var(--m-32) 0 var(--m-8) 0;
+    text-align: center;
+}
+
+.container-download > p {
+    width: 90%;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: .8rem;
+    margin-bottom: var(--m-32);
+}
+
+.container-download a {
+    background-color: var(--green-light);
+    border-radius: var(--radius-btn);
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.container-download a:hover {
+    background-color: var(--btn-download-hover);
+}
+
+.container-encrypted {
+    margin-top: var(--m-encrypted);
+}
+
+.container-encrypted i {
+    padding-right: 4px;
+}
+
+.container-encrypted p {
+    text-align: center;
+    color: var(--encrypted-color);
+    font-size: .8rem;
+}

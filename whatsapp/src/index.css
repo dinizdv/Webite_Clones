@@ -26,14 +26,15 @@
   --scroll-color: #374045;
 
   /* widths and heights */
-  --sidebar-w: 60px;
-  --scroll-w: 8px;
+  --sidebar-w: 3%;
+  --scroll-w: 6px;
   --profile-sidebar-w: 40px;
   --profile-profile-w: 180px;
   --profile-chat-w: 52px;
+  --profile-individual-chat-w: 42px;
   --profile-settings-w: 80px;
   --profile-status-w: 40px;
-  --component-w: 430px;
+  --component-w: 27%;
   --img-download-w: 320px;
   --input-search-w: 280px;
   --icon-status-w: 10px;
