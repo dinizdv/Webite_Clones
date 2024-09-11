@@ -1,6 +1,6 @@
 import './individualChat.css'
 import profilePhoto from '../../assets/profilePhoto.png'
-import bgWpp from '../../assets/bg-wpp.png'
+import Cactus from '../../assets/cactus.png'
 
 const IndividualChat = () => {
     return(
@@ -25,22 +25,74 @@ const IndividualChat = () => {
             {/* bg img */}
             <div className="bg-individual-chat">
 
-            <div className="container-square">
+            <div className="container-bg-messages">
             <div className="container-all-messages">
+
+{/* first message */}
+
+<div className="message">
+            <div className="text-message">
+            <div className="img-message">
+                <img src={Cactus} alt="" />
+            </div>
+
+            </div>
+
+            </div>
+
+
+
             <div className="message">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias pariatur officiis ex eius ea.</p>
-            </div>
+            <div className="text-message">
+            <label className='label-message'>Hello!!! Diniz, how are you?<label htmlFor="" className='label-hour-message'>14:19</label></label>
+
             </div>
 
-            <div className="container-all-messages">
+            </div>
+
+{/* message */}
             <div className="message">
-                <p className='right'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias pariatur officiis ex eius ea.</p>
+            <div className="text-message">
+            <label className='label-message'>Recently, I′ve been on Atibaia  and I found this cactus, It remembered me of you!<label htmlFor="" className='label-hour-message'>14:19</label></label>
+
             </div>
+
+            </div>
+
+
+{/* message */}
+            <div className="message">
+                <div className="text-message right">
+                <label className='label-message label-my-message'>Hello!!! I´m very fine, and you?<label htmlFor="" className='label-hour-message'>14:19</label><i class="fa-solid fa-check"></i></label>
+                </div>
+
+{/*  */}
+                <div className="text-message">
+                <label className='label-message'>
+                    <div className="container-reply">
+                        <div className="reply">
+                            <label htmlFor="">You</label>
+                            <label htmlFor="" className='reference-reply'>Hello!!! I´m very fine, and you?</label>
+                        </div>
+                    </div>
+                    I′m better now, my friend!!!<label htmlFor="" className='label-hour-message'>14:19</label></label>
             </div>
 
             </div>
 
-                <img src={bgWpp} alt="Background Chat" />
+{/*  */}
+
+<div className="message">
+                <div className="text-message right">
+                <label className='label-message label-my-message emoji-message'>😀😀😀<label htmlFor="" className='label-hour-message'>14:19</label><i class="fa-solid fa-check"></i></label>
+                </div>
+</div>
+
+            </div>
+
+
+            </div>
+
 
                 <div className="container-send-message">
                 

@@ -20,6 +20,8 @@
   --java-bg: #af9b00;
   --disconnect-color: #F1453A;
   --search-bg: #2A3942;
+  --chat-bg: #0B141A;
+  --bg-my-message: #005C4B;
 
   --btn-download-hover: #06CF9C;
   --chat-color-active: #2A3942;
@@ -39,6 +41,7 @@
   --img-download-w: 320px;
   --input-search-w: 280px;
   --icon-status-w: 10px;
+  --cactus-w: 260px;
 
   /* paddings and margins */
   --p-8: 8px;

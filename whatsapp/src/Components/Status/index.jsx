@@ -57,7 +57,7 @@ const Status = () => {
         </div>
                 </div>
 
-<div className="container-encrypted-status">
+                <div className="container-encrypted-status">
 <p><i class="fa-solid fa-lock"></i>Your personal messages are <label htmlFor="" className='end-to-end-encrypted'>end-to-end encrypted</label></p>
 
 </div>
