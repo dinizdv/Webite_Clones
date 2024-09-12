@@ -1,5 +1,5 @@
 import './individualChat.css'
-import profilePhoto from '../../assets/profilePhoto.png'
+import person from '../../assets/person.png'
 import Cactus from '../../assets/cactus.png'
 
 const IndividualChat = () => {
@@ -10,9 +10,9 @@ const IndividualChat = () => {
 
                     {/* reusing styles */}
                 <div className="radius-chat-individual-profile">
-            <img src={profilePhoto} className='profile-photo-individual-chat' alt="Profile photo" />
+            <img src={person} className='profile-photo-individual-chat' alt="Profile photo" />
         </div>
-        <label htmlFor="">Lucas</label>
+        <label htmlFor="">Emma Lee</label>
                 </div>
 
             <div className="container-icons-topbar-individual-chat">

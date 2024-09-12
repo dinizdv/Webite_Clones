@@ -1,5 +1,8 @@
 import './chats.css'
 import profilePhoto from '../../assets/profilePhoto.png'
+import person from '../../assets/person.png'
+import person2 from '../../assets/person2.png'
+import person3 from '../../assets/person3.png'
 
 const Chats = () => {
 
@@ -54,257 +57,193 @@ const Chats = () => {
             <div className="container-people-chats">
                 <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Emma Lee</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
                 <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person2} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>John Smith</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
                 <div className="people-chats">
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person3} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Joana Perez</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
-
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Emma Lee</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-
-
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person2} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>John Smith</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
                 <div className="people-chats">
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person3} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Joana Perez</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
+        </div>
+                </div>
+
+
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
+                <div className="radius-chat-profile">
+            <img src={person} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>Emma Lee</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
+        </div>
+                </div>
+
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
+                <div className="radius-chat-profile">
+            <img src={person2} className='profile-photo-chat' alt="Profile photo" />
+        </div>
+        <div className="container-name-message">
+            <h4>John Smith</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
                 <div className="people-chats">
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person3} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Joana Perez</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-                <div className="people-chats">
+
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Emma Lee</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person2} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>John Smith</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
                 <div className="people-chats">
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person3} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Joana Perez</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Emma Lee</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person2} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>John Smith</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
                 <div className="people-chats">
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person3} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Joana Perez</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Emma Lee</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-
-
-                <div className="people-chats">
+                <div className="people-chats" onClick={showIndividualChat} content-id='individual-chat'>
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person2} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>John Smith</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
 
                 <div className="people-chats">
                 <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
+            <img src={person3} className='profile-photo-chat' alt="Profile photo" />
         </div>
         <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
+            <h4>Joana Perez</h4>
+            <p>Responsive React & CSS dashboard. This is a awesome project</p>
         </div>
                 </div>
 
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
-
-
-
-                <div className="people-chats">
-                <div className="radius-chat-profile">
-            <img src={profilePhoto} className='profile-photo-chat' alt="Profile photo" />
-        </div>
-        <div className="container-name-message">
-            <h4>Bruno Diniz</h4>
-            <p>Dashboard responsivo com React, CSS, JS, Tailwind, test, test,</p>
-        </div>
-                </div>
 
 
             </div>

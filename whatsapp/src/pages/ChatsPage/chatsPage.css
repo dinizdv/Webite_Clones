@@ -30,3 +30,16 @@
 .show-right {
     display: flex;
 }
+
+
+
+@media (max-width: 1100px){
+    .component {
+        width: 96.2%;
+        margin-left: 40px;
+    }
+
+    .component-display {
+        display: none;
+    }
+}

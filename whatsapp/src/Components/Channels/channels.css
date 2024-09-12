@@ -33,6 +33,10 @@
     width: 320px;
 }
 
+#bg-realMadrid {
+    background-color: var(--light-color);
+}
+
 
 .container-btn-follow-channel {
     margin-top: 6px;

@@ -9,6 +9,7 @@
     height: var(--profile-profile-w);
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
 }
 
 .profile-profile-chat {
